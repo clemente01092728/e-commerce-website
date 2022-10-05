@@ -148,6 +148,15 @@ button:active {
   margin: 0 auto;
 }
 
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-cursor {
+  cursor: not-allowed;
+}
 
 /* highlights */
 
@@ -273,4 +282,14 @@ button:active {
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf;
+}
+
+/*EXPLORE*/
+
+#Explore {
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+.btn {
+  background-color: #7342d6;
 }
