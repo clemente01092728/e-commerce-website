@@ -261,6 +261,7 @@ button:active {
 
 .highlight__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row {
@@ -272,7 +273,6 @@ button:active {
   width: calc(100%/3);
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -390,12 +390,46 @@ footer {
   padding: 0 8px;
 }
 
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONE */
+
+@media (max-width: 768px) {
+  .header__description {
+    padding: 0 24px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  .book {
+    width: 50%;
+  }
+}
+
+/* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
+  .btn__menu {
+    display: block;
+  }
+  
   .nav__link {
     display: none;
   }
 
-  .btn__menu {
-    display: block;
+  .highlight {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;
   }
 }
