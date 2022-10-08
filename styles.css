@@ -318,9 +318,8 @@ footer {
   padding: 0;
 }
 
-.footer__link
-.footer__copyright
- {
+.footer__link,
+.footer__copyright {
   color: #fff;
 }
 
